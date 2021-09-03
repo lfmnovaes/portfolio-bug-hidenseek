@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Luis's Portfolio</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;900&display=swap"
+      rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async
+      src="https://www.googletagmanager.com/gtag/js?id=G-NEXJF3MWF2"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-NEXJF3MWF2');
+    </script>
+  </head>
+  <body>
+    <header class="header">
+      <nav class="navbar d-flex">
+        <a id="logo" href="#" class="bold">Luis</a>
+        <ul class="d-flex desktop-menu">
+          <li class="nav-item">
+            <a href="#" class="nav-link font15-20 black">Portfolio</a>
+          </li>
+          <li class="nav-item">
+            <a href="#about" class="nav-link font15-20 black">About</a>
+          </li>
+          <li class="nav-item">
+            <a href="#contact" class="nav-link font15-20 black">Contact</a>
+          </li>
+        </ul>
+        <ul class="menu blue">
+          <li><a class="menuLink" href="#">Portfolio</a></li>
+          <li><a class="menuLink" href="#about">About</a></li>
+          <li><a class="menuLink" href="#contact">Contact</a></li>
+        </ul>
+        <button class="ham" type="button">
+          <span class="menuIcon">
+            menu
+          </span>
+          <span class="xIcon blue">
+            close
+          </span>
+        </button>
+      </nav>
+    </header>
+    <section class="main d-flex">
+      <h1 id="about" class="intro bold">
+        I'm Luis<br>Glad to see you!
+      </h1>
+      <p class="description black font20-28">
+        I’m a software developer! I can help you build a product, feature or
+        website Look through some of my work and experience! If you like what
+        you see and have a project you need coded, don’t hesitate to contact me.
+      </p>
+      <h2 class="social">
+        LET'S CONNECT
+      </h2>
+      <ul class="social-icons d-flex">
+        <li>
+          <a href="https://twitter.com/lfmnovaes">
+            <img src="icon/twitter.svg" alt="My Twitter" /></a>
+        </li>
+        <li>
+          <a href="https://www.linkedin.com/in/lfmnovaes/">
+            <img src="icon/linkedin.svg" alt="My LinkedIn" /></a>
+        </li>
+        <li>
+          <a href="https://medium.com/@lfmnovaes">
+            <img src="icon/medium.svg" alt="My Medium" /></a>
+        </li>
+        <li>
+          <a href="https://github.com/lfmnovaes">
+            <img src="icon/github.svg" alt="My GitHub" /></a>
+        </li>
+        <li>
+          <a href="#">
+            <img src="icon/angellist.svg" alt="My AngelList" /></a>
+        </li>
+      </ul>
+    </section>
+    <section class="projects d-flex">
+      <h2 class="h">Projects</h2>
+      <div class="proj">
+        <img src="img/snapshot1-big.png" class="proj-img proj1 left" alt="My
+          Project Tonic">
+        <div class="right space">
+          <h2 class="proj-title bold font40-52">Tonic</h2>
+          <div class="proj-subt d-flex">
+            <div class="font500 black font18-24">CANOPY</div>
+            <img src="icon/counter.png" alt="counter">
+            <div class="gray font18-24">Back End Dev</div>
+            <img src="icon/counter.png" alt="counter">
+            <div class="gray font18-24">2015</div>
+          </div>
+          <p class="proj-desc black font16-24">A daily selection of privately
+            personalized reads; no accounts or sign-ups required.</p>
+          <ul class="proj-lang">
+            <li>html</li>
+            <li>css</li>
+            <li>javaScript</li>
+          </ul>
+          <button id="mBtn1" type="button" class="button 500">See Project</button>
+        </div>
+      </div>
+      <div id="myModal" class="modal">
+        <div class="modal-container">
+          <div class="modal-content">
+            <div class="modal-title">
+              <h1 id="modalTitle" class="proj-title bold font40-52">Title</h1>
+              <span class="xp">&times;</span>
+            </div>
+            <div id="modalSubt" class="proj-subt d-flex modal-subt">
+            </div>
+            <img id="modalImg" class="modal-img" src="img/snapshot1-details.png" alt="Tonic">
+            <div class="modal-text">
+              <p id="modalDesc" class="black"></p>
+              <div class="modal-footer">
+                <ul id="modalTech" class="proj-lang border">
+                </ul>
+                <button id="modalBtn1" type="button" class="button">See Live &nbsp; <img class="icon" src="/icon/liveIcon.svg" alt="Live"></button>
+                <button id="modalBtn2" type="button" class="button">See Source &nbsp; <img class="icon" src="/icon/sourceIcon.svg" alt="Source"></button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="proj">
+        <img src="img/snapshot2-big.png" class="proj-img proj2 right" alt="My
+          Project Multi-Post Stories">
+        <div class="left space">
+          <h2 class="proj-title bold font40-52">Multi-Post Stories</h2>
+          <div class="proj-subt d-flex">
+            <div class="font500 black font18-24">CANOPY</div>
+            <img src="icon/counter.png" alt="counter">
+            <div class="gray font18-24">Back End Dev</div>
+            <img src="icon/counter.png" alt="counter">
+            <div class="gray font18-24">2015</div>
+          </div>
+          <p class="proj-desc black font16-24">A daily selection of privately
+            personalized reads; no accounts or sign-ups required.</p>
+          <ul class="proj-lang">
+            <li>html</li>
+            <li>css</li>
+            <li>javaScript</li>
+          </ul>
+          <button id="mBtn2" type="button" class="button 500">See Project</button>
+        </div>
+      </div>
+      <div class="proj">
+        <img src="img/snapshot3-big.png" class="proj-img proj3 left" alt="My
+          Project Tonic">
+        <div class="right space">
+          <h2 class="proj-title bold font40-52">Tonic</h2>
+          <div class="proj-subt d-flex">
+            <div class="font500 black font18-24">CANOPY</div>
+            <img src="icon/counter.png" alt="counter">
+            <div class="gray font18-24">Back End Dev</div>
+            <img src="icon/counter.png" alt="counter">
+            <div class="gray font18-24">2015</div>
+          </div>
+          <p class="proj-desc black font16-24">A daily selection of privately
+            personalized reads; no accounts or sign-ups required.</p>
+          <ul class="proj-lang">
+            <li>html</li>
+            <li>css</li>
+            <li>javaScript</li>
+          </ul>
+          <button id="mBtn3" type="button" class="button 500">See Project</button>
+        </div>
+      </div>
+      <div class="proj">
+        <img src="img/snapshot4-big.png" class="proj-img proj4 right" alt="My
+          Project Multi-Post Stories">
+        <div class="left space">
+          <h2 class="proj-title bold font40-52">Multi-Post Stories</h2>
+          <div class="proj-subt d-flex">
+            <div class="font500 black font18-24">CANOPY</div>
+            <img src="icon/counter.png" alt="counter">
+            <div class="gray font18-24">Back End Dev</div>
+            <img src="icon/counter.png" alt="counter">
+            <div class="gray font18-24">2015</div>
+          </div>
+          <p class="proj-desc black font16-24">A daily selection of privately
+            personalized reads; no accounts or sign-ups required.</p>
+          <ul class="proj-lang">
+            <li>html</li>
+            <li>css</li>
+            <li>javaScript</li>
+          </ul>
+          <button id="mBtn4" type="button" class="button 500">See Project</button>
+        </div>
+      </div>
+    </section>
+    <section class="about d-flex">
+      <div class="flex1">
+        <h2 class="about-title bold font40-52">About<br>Myself</h2>
+        <p class="black font16-24">Hello I’m a software developer! I can help
+          you build a product, feature or website Look through some of my work
+          and experience! If you like what you see and have a project you need
+          coded, don’t hesitate to contact me.</p>
+        <h2 class="social font16-24 font500">
+          LET'S CONNECT
+        </h2>
+        <ul class="social-icons d-flex">
+          <li>
+            <a href="https://twitter.com/lfmnovaes">
+              <img src="icon/twitter.svg" alt="My Twitter" /></a>
+          </li>
+          <li>
+            <a href="https://www.linkedin.com/in/lfmnovaes/">
+              <img src="icon/linkedin.svg" alt="My Linkedin" /></a>
+          </li>
+          <li>
+            <a href="https://medium.com/@lfmnovaes">
+              <img src="icon/medium.svg" alt="My Medium" /></a>
+          </li>
+          <li>
+            <a href="https://github.com/lfmnovaes">
+              <img src="icon/github.svg" alt="My GitHub" /></a>
+          </li>
+          <li>
+            <a href="#"><img src="icon/angellist.svg" alt="My AngelList" /></a>
+          </li>
+        </ul>
+        <button type="button" class="button 500">Get my resume</button>
+      </div>
+      <div class="about-ext d-flex">
+        <ul class="about-items">
+          <li class="about-item d-flex font500">Languages
+            <img src="icon/chevron-down.png" alt="chevron down" /></li>
+          <li class="lang-item d-flex font500">
+            <img src="icon/javascript.png" class="pad10" alt="" />
+            <span class="pad10">JavaScript</span></li>
+          <li class="lang-item d-flex font500">
+            <img src="icon/html.png" class="pad10" alt="" />
+            <span class="pad10">HTML</span></li>
+          <li class="lang-item d-flex font500">
+            <img src="icon/css.png" class="pad10" alt="" />
+            <span class="pad10">CSS</span></li>
+          <li class="about-item d-flex border font500">Frameworks
+            <img src="icon/chevron-right.png" alt="chevron right" /></li>
+          <li class="about-item d-flex border font500">Skills
+            <img src="icon/chevron-right.png" alt="chevron right" /></li>
+        </ul>
+      </div>
+    </section>
+    <footer class="contact d-flex">
+      <h2 id="contact" class="white bold font40-52">Contact me</h2>
+      <p class="white font20-28 bold">If you have an application you are
+        interested in developing, a feature that you need built or a project
+        that needs coding. I’d love to help with it</p>
+      <form id="form" action="https://formspree.io/f/xdoypzpo" method="POST" 
+        class="form d-flex">
+        <input id="form-name" class="usr_detail smooth_border" type="text" name="usr-name"
+          aria-label="Type your name" required maxlength="30" placeholder="Your name">
+        <input id="form-email" class="usr_detail smooth_border" type="email" name="usr-email"
+          aria-label="Type your email" required placeholder="name@mail.com">
+        <textarea id="form-text" class="usr_comment smooth_border" name="usr-message" required
+          aria-label="Write your message" maxlength="500"
+          placeholder="Write your message here"></textarea>
+        <div class="alert">Your e-mail needs to be in lowercase</div>
+        <button id="form-btn" class="button 500" type="submit">Get In Touch</button>
+      </form>
+    </footer>
+    <script src="js/scripts.js"></script>
+  </body>
+</html>

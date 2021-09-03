@@ -1,61 +1,57 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Project Name
+# Portfolio
 
-> One paragraph statement about the project.
+> This is a responsive portfolio project whose is still a work in progress.
 
-![screenshot](./app_screenshot.png)
+![screenshot](./preview.png)
 
-Additional description about the project and its features.
+The style of this project is based on Template 1 from Microverse's Figma.com styles.
 
 ## Built With
 
-- Major languages
-- Frameworks
-- Technologies used
+- HTML
+- CSS
+- node.js (for the linters)
 
 ## Live Demo
 
-[Live Demo Link](https://livedemo.com)
-
+[Live Demo Link](https://lfmnovaes.github.io/portfolio/)
 
 ## Getting Started
 
-**This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
-
-
-To get a local copy up and running follow these simple example steps.
+- Run git clone on this project at the desired directory:
+   ```
+   git clone https://github.com/lfmnovaes/portfolio.git
+   ```
+- Open the index.html in your favorite browser
+- Right-click on the website and go to Inspect (Google Chrome) or Inspect Element (Firefox)
+- Best fit on 1024p screen or higher or any mobile version with 375p/360p screen
 
 ### Prerequisites
 
-### Setup
-
-### Install
+An updated web browser
 
 ### Usage
 
-### Run tests
-
-### Deployment
-
-
+- Open the website with any Browser (preferably with Google Chrome)
+- Scroll down to see different sections of the page
 
 ## Authors
 
-👤 **Author1**
+👤 **Luís Fernando**
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
-
-👤 **Author2**
-
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+- GitHub: [@lfmnovaes](https://github.com/lfmnovaes)
+- Twitter: [@lfmnovaes](https://twitter.com/lfmnovaes)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/lfmnovaes/)
 
 ## 🤝 Contributing
+
+👤 **Chukwuebuka Victor Ozoede**
+
+- GitHub: [@chukwuebukaVictor](https://github.com/chukwuebukaVictor)
+- Twitter: [@OzoedeVictor](https://twitter.com/OzoedeVictor)
+- LinkedIn: [LinkedIn](www.linkedin.com/in/chukwuebuka-ozoede-46616a219)
 
 Contributions, issues, and feature requests are welcome!
 
@@ -67,9 +63,7 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
-- Hat tip to anyone whose code was used
-- Inspiration
-- etc
+To Microverse and their support team.
 
 ## 📝 License
 
